@@ -6,6 +6,6 @@
 # Delete
 kubectl delete -f app-of-apps.yaml
 kubectl delete -f app-of-apps-infra.yaml
-sleep 30
+sleep 60
 kubectl delete -f project-app.yaml
 kubectl delete -f project-infra.yaml

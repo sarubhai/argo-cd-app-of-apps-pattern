@@ -5,4 +5,5 @@
 
 # Delete
 kubectl delete -f app-of-apps.yaml
+sleep 60
 kubectl delete -f project.yaml
