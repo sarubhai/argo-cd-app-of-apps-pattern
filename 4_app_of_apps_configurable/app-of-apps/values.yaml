@@ -1,0 +1,34 @@
+# Variables values for Chart templates
+clusters:
+  - name: in-cluster
+    apps:
+      enabled: true
+      version: HEAD
+      valueFiles: values-dna-dev.yaml
+      pythonApi:
+        enabled: true
+        version: HEAD
+  - name: dna-dev
+    apps:
+      enabled: false
+      version: HEAD
+      valueFiles: values-dna-dev.yaml
+      pythonApi:
+        enabled: true
+        version: HEAD
+  - name: dna-stg
+    apps:
+      enabled: true
+      version: HEAD
+      valueFiles: values-dna-stg.yaml
+      pythonApi:
+        enabled: true
+        version: HEAD
+  - name: dna-prod
+    apps:
+      enabled: false
+      version: HEAD
+      valueFiles: values-dna-prod.yaml
+      pythonApi:
+        enabled: true
+        version: HEAD

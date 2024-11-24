@@ -1,0 +1,15 @@
+apiVersion: v2
+name: sealed-secrets
+description: Helm chart for the sealed-secrets controller
+type: application
+version: 2.16.2
+maintainers:
+  - name: sarubhai
+    email: saurav.karate@gmail.com
+keywords:
+  - secrets
+  - sealed-secrets
+dependencies:
+  - name: sealed-secrets
+    version: 2.16.2
+    repository: https://bitnami-labs.github.io/sealed-secrets

@@ -1,0 +1,4 @@
+python-api:
+  replicaCount: 2
+  ingress:
+    enabled: false
